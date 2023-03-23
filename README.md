@@ -5,7 +5,9 @@ Get Steam app data using their public API and Steamspy API with python.
 Clone this repository `git clone https://github.com/yudopr11/get-steam-data.git`. Create virtual environment and install packages from requirements.txt.
 1. Run `python getSteamApps.py` to get all steam_appid and its name from Steam Public API.
 2. Run `python getSteamAppStats.py` to get steam app statistics from Steamspy API. 
+![getStat](stats.jpg)
 3. Run `python getSteamAppDetails.py no_of_batch` to get Steam app details from Steam Public API. 
+![getDetail](detail.jpg)
 
 ## Notes
 - Step 2 and 3 are interchangeable and can be run in parallel. You can run step 3 first then step 2 or run them in parallel.
